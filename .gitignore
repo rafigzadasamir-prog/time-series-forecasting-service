@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing / tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated model artifacts (reproducible from data + scripts, not committed)
+*.pkl
+*.joblib
+models_cache/
+
+# Note: reports/*.png and reports/*.csv ARE committed intentionally so the
+# README can reference real, versioned backtest output (see scripts/backtest_report.py).
